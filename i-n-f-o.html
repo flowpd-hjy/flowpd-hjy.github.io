@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./i-n-f-o.css" />
+  </head>
+  <body>
+    <div class="info">
+      <section class="navigation">
+        <div class="menu">
+          <div class="sub-menu">
+            <div class="items">
+              <img
+                class="projects-icon"
+                loading="lazy"
+                alt=""
+                src="./public/projects.svg"
+                id="pROJECTS"
+              />
+
+              <img
+                class="info-icon"
+                loading="lazy"
+                alt=""
+                src="./public/info.svg"
+              />
+            </div>
+          </div>
+          <div class="branding">
+            <header class="logo-container">
+              <img
+                class="logo-icon"
+                loading="lazy"
+                alt=""
+                src="./public/logo@2x.png"
+              />
+            </header>
+            <img
+              class="text-icon"
+              loading="lazy"
+              alt=""
+              src="./public/text.svg"
+            />
+          </div>
+        </div>
+      </section>
+      <div class="actions">
+        <div class="social">
+          <div class="icons">
+            <img
+              class="insta-icon"
+              loading="lazy"
+              alt=""
+              src="./public/insta.svg"
+              id="iNSTA"
+            />
+          </div>
+          <img
+            class="x-icon"
+            loading="lazy"
+            alt=""
+            src="./public/x@2x.png"
+            id="xImage"
+          />
+        </div>
+      </div>
+      <section class="footer-content-parent">
+        <div class="footer-content">
+          <div class="frame-parent">
+            <img
+              class="frame-child"
+              loading="lazy"
+              alt=""
+              src="./public/group-1.svg"
+            />
+
+            <img
+              class="frame-item"
+              loading="lazy"
+              alt=""
+              src="./public/group-2@2x.png"
+            />
+
+            <img
+              class="frame-inner"
+              loading="lazy"
+              alt=""
+              src="./public/group-3@2x.png"
+            />
+
+            <img
+              class="frame-inner"
+              loading="lazy"
+              alt=""
+              src="./public/group-4@2x.png"
+            />
+
+            <img
+              class="frame-child"
+              loading="lazy"
+              alt=""
+              src="./public/group-1.svg"
+            />
+          </div>
+        </div>
+        <img class="footer-icon" alt="" src="./public/footer.svg" />
+      </section>
+    </div>
+
+    <script>
+      var pROJECTS = document.getElementById("pROJECTS");
+      if (pROJECTS) {
+        pROJECTS.addEventListener("click", function (e) {
+          window.location.href = "./p-j-t.html";
+        });
+      }
+      
+      var iNSTA = document.getElementById("iNSTA");
+      if (iNSTA) {
+        iNSTA.addEventListener("click", function () {
+          window.open(
+            "https://www.instagram.com/m.k_muki?igsh=b2kyM3hzaWU1dHVj&utm_source=qr"
+          );
+        });
+      }
+      
+      var xImage = document.getElementById("xImage");
+      if (xImage) {
+        xImage.addEventListener("click", function () {
+          window.open("https://x.com/jangminki1228?s=09");
+        });
+      }
+      </script>
+  </body>
+</html>
